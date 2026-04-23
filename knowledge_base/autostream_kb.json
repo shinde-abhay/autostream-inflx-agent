@@ -1,0 +1,79 @@
+{
+  "company": {
+    "name": "AutoStream",
+    "tagline": "Automated video editing tools for content creators",
+    "description": "AutoStream is a SaaS platform that uses AI to automate video editing workflows, making it easy for YouTubers, Instagrammers, and other content creators to produce high-quality videos at scale."
+  },
+  "pricing_plans": [
+    {
+      "name": "Basic Plan",
+      "price_monthly": 29,
+      "currency": "USD",
+      "features": [
+        "10 videos per month",
+        "720p resolution output",
+        "Basic auto-cut and trim",
+        "Standard templates",
+        "Email support"
+      ],
+      "limitations": [
+        "No AI captions",
+        "No 4K export",
+        "Limited to 10 videos/month",
+        "No priority support"
+      ]
+    },
+    {
+      "name": "Pro Plan",
+      "price_monthly": 79,
+      "currency": "USD",
+      "features": [
+        "Unlimited videos per month",
+        "4K resolution output",
+        "AI-powered captions",
+        "Advanced auto-editing with scene detection",
+        "Custom brand templates",
+        "Priority 24/7 support",
+        "Analytics dashboard",
+        "Multi-platform export presets (YouTube, Instagram, TikTok)"
+      ],
+      "limitations": []
+    }
+  ],
+  "policies": [
+    {
+      "topic": "Refund Policy",
+      "details": "No refunds are issued after 7 days from the date of purchase. Users may request a refund within the first 7 days if unsatisfied."
+    },
+    {
+      "topic": "Support Policy",
+      "details": "24/7 customer support is available exclusively on the Pro plan. Basic plan users have access to email support with a 1-2 business day response time."
+    },
+    {
+      "topic": "Cancellation Policy",
+      "details": "Users can cancel their subscription at any time. The subscription remains active until the end of the current billing period."
+    },
+    {
+      "topic": "Free Trial",
+      "details": "AutoStream does not currently offer a free trial, but users can request a demo by contacting our sales team."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What platforms does AutoStream support for export?",
+      "answer": "AutoStream supports export presets for YouTube, Instagram, TikTok, Twitter/X, and LinkedIn (Pro plan only)."
+    },
+    {
+      "question": "Can I upgrade or downgrade my plan?",
+      "answer": "Yes, you can change your plan at any time. Upgrades take effect immediately; downgrades take effect at the next billing cycle."
+    },
+    {
+      "question": "Is there a limit on video length?",
+      "answer": "Basic plan supports videos up to 30 minutes. Pro plan supports videos up to 4 hours."
+    },
+    {
+      "question": "Does AutoStream support team collaboration?",
+      "answer": "Team collaboration features are on our roadmap. Currently, each account is single-user."
+    }
+  ]
+}

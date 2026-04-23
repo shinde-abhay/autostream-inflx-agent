@@ -1,0 +1,19 @@
+# AutoStream Inflx Agent – Python Dependencies
+# Tested with Python 3.10+
+
+# ── Core LangChain & LangGraph ──
+langchain>=0.2.0
+langgraph>=0.1.0
+langchain-core>=0.2.0
+
+# ── LLM Providers (install the one you need) ──
+langchain-groq>=0.1.0          # Groq API (Llama 3.3, Gemma) – recommended for speed
+langchain-openai>=0.1.0        # OpenAI GPT-4o-mini
+langchain-google-genai>=1.0.0  # Google Gemini 1.5 Flash
+
+# ── Environment & Config ──
+python-dotenv>=1.0.0
+
+# ── HTTP (used by LangChain providers internally) ──
+httpx>=0.27.0
+requests>=2.31.0
